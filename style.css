@@ -1,6 +1,7 @@
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding-top: 200px;
 }
 
 .attribution a {
@@ -19,12 +20,14 @@
 }
 
 .header {
-    text-align: center;
-    padding: 100px;
-    color: hsl(186, 14%, 43%);
     font-family: 'Space Mono', monospace;
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
+    letter-spacing: 20px;
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 80px;
+    color: hsl(186, 14%, 43%);
 }
 
 .inner-container {
@@ -38,38 +41,87 @@
 }
 
 .left {
+    display: flex;
+    flex-direction: column;
     font-family: 'Space Mono', monospace;
+    font-size: 20px;
     background-color: hsl(189, 41%, 97%);
-    padding: 100px;
-    margin: 50px;
+    font-weight: bold;
+    padding: 150px;
+    margin: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.bill {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
 }
 
 .input {
-    /* width: 100%; */
-    padding: 10px 12px;
-    /* margin: 2px 0; */
     box-sizing: border-box;
     border: 1px solid black;
-    border-radius: 12px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.select-type {
+    display: flex;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.boxes {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #e3e3e3;
+    height: 20px;
+    width: 55px;
+    border: 7px solid blue;
+    padding: 10px;
+}
+
+.input-box {
+    height: 20px;
+    width: 55px;
+    border: 1px solid black;
+    border: 7px solid blue;
+    padding: 10px;
 }
 
 .right {
     font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
     background-color: hsl(183, 100%, 15%);
-    padding: 100px;
+    padding: 150px;
     margin: 50px;
-    border-radius: 12px;
+    border-radius: 14px;
     color: #fff;
+    height: 100%;
+    width: 100%;
 }
 
 .input-reset {
     display: flex;
-    /* width: 100%; */
-    /* padding: 10px 12px; */
-    /* margin: 2px 0; */
     box-sizing: border-box;
     border: 1px solid black;
-    border-radius: 12px;
     background-color: #9FE8DF;
-    width: 300px;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.people {
+    border: 1px solid black;
 }
