@@ -4,6 +4,16 @@
     padding-top: 200px;
 }
 
+input:focus {
+    outline: none;
+}
+
+
+
+button {
+    cursor: pointer;
+}
+
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
@@ -53,7 +63,8 @@
 
 .left-inner {
     width: 100%;
-    /* background-color: hsl(180, 83%, 40%); */
+    color: hsl(186, 14%, 43%);
+    font-size: 14px;
 }
 
 .bill {
@@ -74,46 +85,46 @@
 .select-type {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
-    display: flex;
     flex-wrap: wrap;
 }
 
 .tip {
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
-    gap: 10px;
+    gap: 5px;
     padding-bottom: 10px;
 }
 
 .box {
     background-color: hsl(183, 100%, 15%);
     height: 35px;
-    width: 30%;
+    width: 32%;
     border-radius: 6px;
     text-align: center;
     color: #fff;
+    border: none;
 }
 
 .input-box {
-    height: 20px;
-    width: 30%;
-    text-align: center;
+    height: 33px;
+    width: 31.5%;
     color: #bdc4c8;
+    border: none;
+    padding: 0px;
+    border-radius: 6px;
+    border: 1px solid #25c2ad;
 }
 
-.people {
-    border: 1px solid black;
-}
+.people {}
 
-.people .title-container {
+.title-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -122,11 +133,12 @@
 .input-people {
     display: flex;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px solid #ba8b7a;
     border-radius: 6px;
     padding: 8px;
     align-items: flex-end;
     background-color: #F3F8FB;
+    width: 100%;
 }
 
 .right {
