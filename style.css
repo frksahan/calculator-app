@@ -53,7 +53,7 @@
 
 .left-inner {
     width: 100%;
-    background-color: hsl(180, 83%, 40%);
+    /* background-color: hsl(180, 83%, 40%); */
 }
 
 .bill {
@@ -62,10 +62,13 @@
 }
 
 .input {
+    display: flex;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 2px solid #9FE8DF;
     border-radius: 6px;
     padding: 8px;
+    align-items: flex-end;
+    background-color: hsl(189, 41%, 97%);
 }
 
 .select-type {
@@ -87,17 +90,23 @@
     justify-content: center;
     width: 100%;
     gap: 10px;
+    padding-bottom: 10px;
 }
 
 .box {
-    background-color: #e3e3e3;
-    height: 20px;
+    background-color: hsl(183, 100%, 15%);
+    height: 35px;
     width: 30%;
+    border-radius: 6px;
+    text-align: center;
+    color: #fff;
 }
 
 .input-box {
     height: 20px;
     width: 30%;
+    text-align: center;
+    color: #bdc4c8;
 }
 
 .people {
@@ -110,6 +119,16 @@
     justify-content: space-between;
 }
 
+.input-people {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 6px;
+    padding: 8px;
+    align-items: flex-end;
+    background-color: #F3F8FB;
+}
+
 .right {
     display: flex;
     justify-content: center;
@@ -118,7 +137,7 @@
     padding: 30px;
 }
 
-.right .right-inner {
+.right-inner {
     width: 100%;
     height: 100%;
     background-color: hsl(183, 100%, 15%);
@@ -127,13 +146,61 @@
     font-size: 20px;
     font-weight: bold;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-inner-top {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    padding: 30px;
+    justify-content: space-between;
+
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.person-inner {
+    font-size: 12px;
+    color: hsl(186, 14%, 43%);
+}
+
+.right-inner-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.money {
+    font-size: 36px;
+    color: #25c2ad;
 }
 
 .input-reset {
-    display: flex;
     box-sizing: border-box;
-    border: 1px solid black;
     background-color: #9FE8DF;
     border-radius: 6px;
-    padding: 8px;
+    gap: 15px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: none;
+    color: hsl(183, 100%, 15%);
 }

@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="40x40" href="./images/calculator.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,7 +23,7 @@
         <div class="left-inner">
           <div class="bill">
             <p>Bill</p>
-            <form class="input">$</form>
+            <input type="text" class="input" />
           </div>
           <div class="select-type">
             <p class="tip">Select Tip %</p>
@@ -33,7 +33,7 @@
               <div class="box">15%</div> <!-- box-3 -->
               <div class="box">25%</div> <!-- box-4 -->
               <div class="box">50%</div> <!-- box-5 -->
-              <form class="input-box">$</form> <!-- box-6 -->
+              <input type="text" class="input-box" /> <!-- box-6 -->
             </div>
           </div>
           <div class="people">
@@ -41,20 +41,30 @@
               <p>Number Of People</p>
               <p>Can't be zero</p>
             </div>
-            <form class="input">$</form>
+            <input type="text" class="input-people" />
           </div>
         </div>
       </div>
       <div class="right">
         <div class="right-inner">
-          <div>
-            <span>Tip Amount</span>
+          <div class="right-inner-top">
+            <div class="amount">
+              <div class="person">
+                <span>Tip Amount</span>
+                <span class="person-inner">/ person</span>
+              </div>
+              <span class="money">$0.00</span>
+            </div>
+            <div class="amount">
+              <div class="person">
+                <span>Total</span>
+                <span class="person-inner">/ person</span>
+              </div>
+              <span class="money">$0.00</span>
+            </div>
           </div>
-          <div>
-            <p>Total</p>
-          </div>
-          <div>
-            <form class="input-reset">Reset</form>
+          <div class="right-inner-bottom">
+            <button class="input-reset">Reset</button>
           </div>
         </div>
       </div>
