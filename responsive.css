@@ -1,0 +1,26 @@
+@media (max-width: 575px) {
+    .header {
+        font-size: 24px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .inner-container {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    .left {
+        flex-direction: column;
+        width: 90%;
+        padding: 30px;
+    }
+
+    .right {
+        width: 90%;
+        padding: 30px;
+    }
+}
