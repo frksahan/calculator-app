@@ -11,16 +11,65 @@
         width: 100%;
         flex-direction: column;
         border-radius: 30px;
+        width: 100%;
     }
 
     .left {
         flex-direction: column;
-        width: 90%;
-        padding: 30px;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+
+    }
+
+    .left-inner {
+        width: 80%;
+        height: 100% !important;
+        color: hsl(186, 14%, 43%);
+        font-size: 14px;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px;
+    }
+
+    .box {
+        height: 40px;
+        width: 47%;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .input-box {
+        height: 38px;
+        width: 47%;
+        color: hsl(183, 100%, 15%);
+        border: none;
+        padding: 0px;
+        border-radius: 6px;
+        border: 1px solid #25c2ad;
+        text-align: center;
+        font-family: 'Space Mono', monospace;
+        font-size: 16px;
+        font-weight: bold;
     }
 
     .right {
-        width: 90%;
-        padding: 30px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    .right-inner {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .right-inner-top {
+        padding-bottom: 10px;
+    }
+
+    .box {
+        font-size: 24px;
     }
 }

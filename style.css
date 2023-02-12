@@ -8,8 +8,6 @@ input:focus {
     outline: none;
 }
 
-
-
 button {
     cursor: pointer;
 }
@@ -97,17 +95,12 @@ button {
     flex-wrap: wrap;
 }
 
-.tip {
-    /* padding-left: 10px; */
-}
-
 .boxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    /* gap: 7px; */
     padding-bottom: 10px;
 }
 
